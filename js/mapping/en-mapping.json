@@ -2,7 +2,9 @@
             
         {"map":[
         
-            
+            {"appid":"portal-docs-home", "helptopic":"introduction-to-the-sitecore-cloud-portal.html"},
+{"appid":"portal_password_change", "helptopic":"change-your-sitecore-password.html"},
+{"appid":"cloud-portal-roles", "helptopic":"managing-access-in-the-portal.html#UUID-44f2d291-002e-ed2d-858b-17a6737f1c39_section-idm4518371106633633603352065956"}
             
 
          ]}
