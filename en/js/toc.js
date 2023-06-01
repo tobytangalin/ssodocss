@@ -49,6 +49,23 @@ var toc = [{
 "class": "topic-link section"
 },
 {
+"url": "single-sign-on--sso-.html",
+"text": "Single sign-on (SSO)",
+"class": "topic-link section"
+,
+"children": [
+{
+"url": "configure-openid-connect--oidc-.html",
+"text": "Configure OpenID Connect (OIDC)",
+"class": "topic-link section"
+},
+{
+"url": "troubleshooting-faq.html",
+"text": "Troubleshooting FAQ",
+"class": "topic-link section"
+}]
+},
+{
 "url": "invite-team-members-to-your-sitecore-cloud-portal-organization.html",
 "text": "Invite team members to your Sitecore Cloud Portal organization",
 "class": "topic-link section"
