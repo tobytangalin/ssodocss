@@ -5,14 +5,14 @@
   <param name="jquery.version" select="3.4.1"/>
   <param name="use.algolia.search" select="0"/>
   <param name="use.algolia.free.docsearch" select="0"/>
-  <param name="publication.id" select="en-UUID-fec13502-624e-5220-9b29-98a967744a24"/>
+  <param name="publication.id" select="en-UUID-491d791d-46e5-06b2-f261-1c030e4869f4"/>
   <param name="algolia.custom.index.name" select=""/>
   <param name="use.fuse.search" select="1"/>
   <param name="use.multilingual.default.search" select="0"/>
-  <param name="custom.css.source" select="/var/www/ccms/usr/sitecore/xsl/custom/assets/layout-769278/5ea6f7ae0a6ce.css"/>
+  <param name="custom.css.source" select="/var/www/ccms/usr/sitecore/xsl/custom/assets/layout-934730/5ea6f7ae0a6ce.css"/>
   <param name="portal.logo.filename" select="css/image/corporate-logo-white.svg"/>
   <param name="portal.background.filename" select=""/>
-  <param name="portal.background.filename.out" select="/paligo/tmp/sitecore/production-646f893d0b93d5.37010120/1127249-Sitecore_Cloud_Portal_SSO-html5/out/css/image/portal-bg.jpg"/>
+  <param name="portal.background.filename.out" select="/paligo/tmp/sitecore/production-6478b5c76d5c36.97813510/887583-Sitecore_Cloud_Portal-html5/out/css/image/portal-bg.jpg"/>
   <param name="company.name" select="Sitecore"/>
   <param name="copyright.year" select=""/>
   <param name="copyright"> © 2023 Sitecore </param>
@@ -24,7 +24,7 @@
   <param name="google.analytics" select="UA-72664331-1"/>
   <param name="google.analytics.type" select="gtag"/>
   <param name="user.custom.script" select="0"/>
-  <param name="layout.custom.script" select="/var/www/ccms/usr/sitecore/xsl/custom/assets/layout-769278/5ea6f83db4837.js"/>
+  <param name="layout.custom.script" select="/var/www/ccms/usr/sitecore/xsl/custom/assets/layout-934730/5ea6f83db4837.js"/>
   <param name="create.sitemap" select="1"/>
   <param name="destination.domain" select="https://doc.sitecore.com/"/>
   <param name="submit.feedback" select="0"/>
@@ -40,7 +40,7 @@
   <param name="last.modified.text" select="Last modified: "/>
   <param name="categories.shown" select="4"/>
   <param name="single.topic.permalink" select=""/>
-  <param name="logo.link" select="https://doc.sitecore.com/xmc/"/>
+  <param name="logo.link" select="https://doc.sitecore.com/"/>
   <param name="feedback.toggle" select="no-button"/>
   <param name="bootstrap.version" select="340"/>
   <param name="layout.custom.style.persistent.name" select="1"/>
@@ -100,11 +100,11 @@
   <param name="slides.revealjs.theme.custom" select=""/>
   <param name="slides.revealjs.background.image.opacity" select="1"/>
   <param name="slides.revealjs.default.background.image" select=""/>
-  <param name="slides.revealjs.default.background.image.out" select="/paligo/tmp/sitecore/production-646f893d0b93d5.37010120/1127249-Sitecore_Cloud_Portal_SSO-html5/out/css/image/default_slide_background.png"/>
+  <param name="slides.revealjs.default.background.image.out" select="/paligo/tmp/sitecore/production-6478b5c76d5c36.97813510/887583-Sitecore_Cloud_Portal-html5/out/css/image/default_slide_background.png"/>
   <param name="slides.revealjs.logo" select=""/>
-  <param name="slides.revealjs.logo.out" select="/paligo/tmp/sitecore/production-646f893d0b93d5.37010120/1127249-Sitecore_Cloud_Portal_SSO-html5/out/css/image/logo-light.png"/>
+  <param name="slides.revealjs.logo.out" select="/paligo/tmp/sitecore/production-6478b5c76d5c36.97813510/887583-Sitecore_Cloud_Portal-html5/out/css/image/logo-light.png"/>
   <param name="slides.revealjs.logo.alt" select=""/>
-  <param name="slides.revealjs.logo.alt.out" select="/paligo/tmp/sitecore/production-646f893d0b93d5.37010120/1127249-Sitecore_Cloud_Portal_SSO-html5/out/css/image/logo-dark.png"/>
+  <param name="slides.revealjs.logo.alt.out" select="/paligo/tmp/sitecore/production-6478b5c76d5c36.97813510/887583-Sitecore_Cloud_Portal-html5/out/css/image/logo-dark.png"/>
   <param name="delayed.algolia.search" select="0"/>
   <param name="choose.startpage.by.role" select="0"/>
 </params>
