@@ -58,6 +58,13 @@ var toc = [{
 "url": "configure-openid-connect--oidc-.html",
 "text": "Configure OpenID Connect (OIDC)",
 "class": "topic-link section"
+,
+"children": [
+{
+"url": "edit-or-delete-an-sso-connection.html",
+"text": "Edit or delete an SSO connection",
+"class": "topic-link section"
+}]
 },
 {
 "url": "troubleshooting-faq.html",
