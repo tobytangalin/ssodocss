@@ -67,8 +67,8 @@ var toc = [{
 }]
 },
 {
-"url": "troubleshooting-faq.html",
-"text": "Troubleshooting FAQ",
+"url": "technical-details.html",
+"text": "Technical details",
 "class": "topic-link section"
 }]
 },
