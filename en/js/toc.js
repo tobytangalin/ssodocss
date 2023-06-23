@@ -93,6 +93,11 @@ var toc = [{
 "class": "topic-link section"
 },
 {
+"url": "password-policy.html",
+"text": "Password policy",
+"class": "topic-link section"
+},
+{
 "url": "create-a-support-case.html",
 "text": "Create a support case",
 "class": "topic-link section"
