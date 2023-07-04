@@ -1,0 +1,85 @@
+/* Overrides */
+atomic-search-box,
+atomic-result-list {
+    --atomic-primary: #1976d2;
+    --atomic-primary-light: #66afe9;
+    /* hover of primary colored elements */
+    --atomic-neutral: #66afe9;
+    /* border */
+    --atomic-neutral-light: #e9f3fc;
+    /* hovered search results */
+    --atomic-primary-dark: #990000;
+    --atomic-border-radius: 0;
+    --atomic-on-background: #1976d2;
+    /* link color */
+    --atomic-visited: #1976d2;
+    /* visited link color */
+    --atomic-neutral-dark: #444;
+
+    --atomic-text-base: 13px;
+    /* using em here seems to be applied to nested elements, making some fonts very tiny */
+    --atomic-font-family: Roboto, sans-serif;
+
+    --atomic-border-radius: 0;
+}
+
+atomic-result-list {
+    --atomic-neutral: #e9f3fc;
+    /* override too dark, blue borders between search results */
+}
+
+/* for some reason, instant search results are rendered as buttons with centered text by default */
+atomic-search-box::part(instant-results-item) {
+    text-align: left;
+    border-top: solid 1px var(--atomic-neutral);
+}
+
+atomic-search-box::part(instant-results-item):first-child {
+    border-top: none;
+}
+
+atomic-search-box::part(suggestions-wrapper) {
+    flex-wrap: wrap;
+}
+
+atomic-search-box::part(suggestions-left),
+atomic-search-box::part(suggestions-right) {
+    flex-basis: 100%;
+    border-left: none;
+}
+
+/* fix the background of the "see all results" button */
+atomic-search-box::part(instant-results-show-all) {
+    background-color: var(--atomic-background);
+}
+
+atomic-search-box::part(instant-results-show-all):hover {
+    background-color: var(--atomic-neutral-light);
+}
+
+atomic-search-box::part(instant-results-show-all-button) {
+    background-color: transparent;
+}
+
+atomic-search-box {
+    max-width: 500px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+atomic-facet {
+    --atomic-facet-checkbox-size: 12px;
+}
+
+.inner {
+    z-index: 10;
+}
+
+.portal-body {
+    z-index: 5;
+}
+
+#content-wrapper {
+    z-index: 7;
+}

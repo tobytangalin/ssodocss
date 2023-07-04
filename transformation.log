@@ -1,20 +1,20 @@
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] ############################################################
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] # Output Factory initiated (html5)
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] # Building output for: Sitecore Cloud Portal SSO
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] # URL /document/edit/1127249
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] # User: Toby Tangalin
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] # Time: Mon, 26 Jun 2023 10:20:11 +0100
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] # Server: bordeaux
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] ############################################################
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] Group: custom
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] Type: html5
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] Transformation: $user_dir/xsl/custom/layout-769278.xsl
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] File found: $user_dir/xsl/custom/layout-769278.xsl
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] ############################################################
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] Building output for: html5
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] Using stylesheet: $user_dir/xsl/custom/layout-769278.xsl
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] Parameters for this build: []
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] Environment variables for this build: Array
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] ############################################################
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] # Output Factory initiated (html5)
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] # Building output for: Sitecore Cloud Portal SSO
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] # URL /document/edit/1127249
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] # User: Toby Tangalin
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] # Time: Tue, 04 Jul 2023 09:24:50 +0100
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] # Server: cottbus
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] ############################################################
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] Group: custom
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] Type: html5
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] Transformation: $user_dir/xsl/custom/layout-769278.xsl
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] File found: $user_dir/xsl/custom/layout-769278.xsl
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] ############################################################
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] Building output for: html5
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] Using stylesheet: $user_dir/xsl/custom/layout-769278.xsl
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] Parameters for this build: []
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] Environment variables for this build: Array
 (
     [taxonomy.filter.strategy] => self
     [taxonomies.propagate] => 1
@@ -23,101 +23,101 @@
     [taxonomy.class.name.strategy] => self
 )
 
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] Building output for languages: Array
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] Building output for languages: Array
 (
     [0] => en
 )
 
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] Building multilang: no
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] Building preview: no
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] ############################################################
-[26/Jun/2023 10:20:11 Europe/Dublin] [Info] Using build directory: $local_tmp/production-64995849b23853.41510625/1127249-Sitecore_Cloud_Portal_SSO-html5
-[26/Jun/2023 10:20:12 Europe/Dublin] [Info] -- Generating source files
-[26/Jun/2023 10:20:12 Europe/Dublin] [Info] -- Propagating taxonomies: true
-[26/Jun/2023 10:20:15 Europe/Dublin] [Info] -- Source files have been generated
-[26/Jun/2023 10:20:15 Europe/Dublin] [Info] -- Publication has no unresolved dependencies.
-[26/Jun/2023 10:20:15 Europe/Dublin] [Info] -- Generating source files complete.
-[26/Jun/2023 10:20:16 Europe/Dublin] [Info] Localizing: publication-1127249.xml
-[26/Jun/2023 10:20:16 Europe/Dublin] [Info] Language: en
-[26/Jun/2023 10:20:16 Europe/Dublin] [Warning] Resolving some links failed
-[26/Jun/2023 10:20:16 Europe/Dublin] [Info] [/*/*[3]/*[4]/*[10]/*[4]/*[4]/*/*[2]/*[2]/*[2]/*[2]/*[3]/*/*] An outgoing link in <a href="/document/edit/1092297">organization access role table</a> could not be resolved. The link points to <a href="/document/edit/805390">XM Cloud Deploy app</a> which is not part of this publication.
-[26/Jun/2023 10:20:16 Europe/Dublin] [Info] [/*/*[3]/*[4]/*[10]/*[5]/*[9]/*] An outgoing link in <a href="/document/edit/1003118">Managing access in the portal</a> could not be resolved. The link points to <a href="/document/edit/943732">Creating users in XM Cloud</a> which is not part of this publication.
-[26/Jun/2023 10:20:16 Europe/Dublin] [Info] [/*/*[3]/*[6]/*[7]/*[5]/*[2]/*[2]/*[2]/*[2]/*[2]/*[2]/*[4]/*/*] An outgoing link in <a href="/document/edit/1144115">organization access role table</a> could not be resolved. The link points to <a href="/document/edit/805390">XM Cloud Deploy app</a> which is not part of this publication.
-[26/Jun/2023 10:20:16 Europe/Dublin] [Info] [/*/*[3]/*[7]/*[4]/*[3]/*[3]/*[2]/*/*[2]/*[2]/*[2]/*[2]/*[3]/*/*] An outgoing link in <a href="/document/edit/1092297">organization access role table</a> could not be resolved. The link points to <a href="/document/edit/805390">XM Cloud Deploy app</a> which is not part of this publication.
-[26/Jun/2023 10:20:17 Europe/Dublin] [Info] Variable sets found: 0
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Inserting image links.
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Found 14 image(s).
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Found image 'profile.PNG'
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Found image 'apps-section-app-pane.PNG'
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Found image 'switcher-icon.png'
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Found image 'switch-pane.PNG'
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Found image 'quick-actions-pane.PNG'
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Found image 'account-page.PNG'
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Found image 'password-reset-email.PNG'
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Found image 'reset-password-page.PNG'
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Found image 'sitecore-cloud-portal-login-page.png'
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Found image 'pencil-outline.png'
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Found image 'trash-can-outline.png'
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Found image 'SC_Cloud_-_invite_team_members.png'
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Found image 'actions-menu-horizontal-icon.png'
-[26/Jun/2023 10:20:18 Europe/Dublin] [Info] Found image 'app-access.PNG'
-[26/Jun/2023 10:20:20 Europe/Dublin] [Info] Profiling parameters: []
-[26/Jun/2023 10:20:20 Europe/Dublin] [Info] Profiling customisation: $user_dir/xsl/profile.xsl (not found)
-[26/Jun/2023 10:20:20 Europe/Dublin] [Info] Transformation: publication-1127249--en.org.xml -> publication-1127249--en.xml [profile.xsl]
-[26/Jun/2023 10:20:20 Europe/Dublin] [Info] Transformation: publication-1127249--en.xml -> publication-1127249--en.xml [internal-xref.xsl]
-[26/Jun/2023 10:20:20 Europe/Dublin] [Info] Transformation: A-filelist.xml -> B-sorted.xml [IO.document.sortlang.xsl]
-[26/Jun/2023 10:20:20 Europe/Dublin] [Info] Transformation: B-sorted.xml -> C-concatenated.xml [IO.document.concat.xsl]
-[26/Jun/2023 10:20:20 Europe/Dublin] [Info] Transformation: B-sorted.xml -> index-en.xml [IO.document.head.xsl]
-[26/Jun/2023 10:20:20 Europe/Dublin] [Info] Created copy: $user_dir/xsl/custom/layout-769278.xsl -> $user_dir/xsl/custom/64995854965f3.xsl
-[26/Jun/2023 10:20:20 Europe/Dublin] [Info] Created symlink: $user_dir/xsl/html5/xmc_html5-2.page.xsl -> $user_dir/xsl/custom/64995854965f3.page.xsl
-[26/Jun/2023 10:20:20 Europe/Dublin] [Info] Created symlink: $user_dir/xsl/html5/xmc_html5-2.index.xsl -> $user_dir/xsl/custom/64995854965f3.index.xsl
-[26/Jun/2023 10:20:20 Europe/Dublin] [Info] Created symlink: $user_dir/xsl/default/html5/html5-2.page.xsl -> $user_dir/xsl/custom/64995854965f3.page.xsl
-[26/Jun/2023 10:20:20 Europe/Dublin] [Info] Created symlink: $user_dir/xsl/default/html5/html5-2.index.xsl -> $user_dir/xsl/custom/64995854965f3.index.xsl
-[26/Jun/2023 10:20:20 Europe/Dublin] [Info] Created symlink: $user_dir/xsl/default/html5/html5.toc.xsl -> $user_dir/xsl/custom/64995854965f3.toc.xsl
-[26/Jun/2023 10:20:20 Europe/Dublin] [Info] Created symlink: $user_dir/xsl/default/html5/html5.page.xsl -> $user_dir/xsl/custom/64995854965f3.page.xsl
-[26/Jun/2023 10:20:20 Europe/Dublin] [Info] Created symlink: $user_dir/xsl/default/html5/html5.index.xsl -> $user_dir/xsl/custom/64995854965f3.index.xsl
-[26/Jun/2023 10:20:21 Europe/Dublin] [Info] Image copied: en/image/uuid-b9b63de7-4dd2-ed95-8901-29afe1d1bf30.PNG
-[26/Jun/2023 10:20:21 Europe/Dublin] [Info] Image copied: en/image/uuid-075dff54-3fd5-aa47-9c76-4e099d0dbea4.PNG
-[26/Jun/2023 10:20:21 Europe/Dublin] [Info] Image copied: en/image/uuid-83c5aa59-2458-838f-fa34-4543550b68f1.png
-[26/Jun/2023 10:20:21 Europe/Dublin] [Info] Image copied: en/image/uuid-459bee43-9d9f-528f-82c0-fcda0f0124ba.png
-[26/Jun/2023 10:20:21 Europe/Dublin] [Info] Image copied: en/image/uuid-a3cf5469-1980-2390-324a-1f2b554703c6.PNG
-[26/Jun/2023 10:20:21 Europe/Dublin] [Info] Image copied: en/image/uuid-7b7ddc83-395c-a821-00cb-fd9b79274b8d.png
-[26/Jun/2023 10:20:21 Europe/Dublin] [Info] Image copied: en/image/uuid-94405ddf-ef64-dedb-5f81-98bfbc787c45.PNG
-[26/Jun/2023 10:20:21 Europe/Dublin] [Info] Image copied: en/image/uuid-5698e100-8269-61db-8d02-e5cc961f3cf3.PNG
-[26/Jun/2023 10:20:21 Europe/Dublin] [Info] Image copied: en/image/uuid-05eac87b-b03c-c704-9003-a5dacd35bb53.png
-[26/Jun/2023 10:20:21 Europe/Dublin] [Info] Image copied: en/image/uuid-ee92a345-87ca-d42e-9e81-66bc07dd28a7.png
-[26/Jun/2023 10:20:21 Europe/Dublin] [Info] Image copied: en/image/uuid-ba18d6ad-d61f-ffff-45b2-8624c3b71789.png
-[26/Jun/2023 10:20:21 Europe/Dublin] [Info] Image copied: en/image/uuid-23a9aac3-e9dd-af44-e6ae-dbf0105872b4.png
-[26/Jun/2023 10:20:21 Europe/Dublin] [Info] Image copied: en/image/uuid-19b5257d-2fb7-59f5-30ec-feab9a68ca43.png
-[26/Jun/2023 10:20:21 Europe/Dublin] [Info] Image copied: en/image/uuid-9d46380d-f2f2-e2b5-36fd-d86f3d4194ce.png
-[26/Jun/2023 10:20:26 Europe/Dublin] [Warning] XSLTProcessor::transformToDoc(): Not allowed to call handler 'file_exists()' in $apppath/core/paligo/class.xsltprocessor.php on line 77
-[26-Jun-2023 10:20:29 Europe/Dublin] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, js/jquery-3/*, fonts/*
-[26-Jun-2023 10:20:29 Europe/Dublin] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, fonts/*
-[26-Jun-2023 10:20:29 Europe/Dublin] Copy file '$user_dir/xsl/custom/assets/layout-769278/5c98d7ebe55fd.png' to '$local_tmp/production-64995849b23853.41510625/1127249-Sitecore_Cloud_Portal_SSO-html5/out/css/image/corporate-logo.png'
-[26-Jun-2023 10:20:29 Europe/Dublin] Copy file '$apppath/lib/docbook/xsl/html5/css/image/corporate-logo-white.svg' to '$local_tmp/production-64995849b23853.41510625/1127249-Sitecore_Cloud_Portal_SSO-html5/out/css/image/portal-logo.svg'
-[26-Jun-2023 10:20:29 Europe/Dublin] Copy file '$user_dir/xsl/custom/assets/layout-769278/5ea6f83db4837.js' to '$local_tmp/production-64995849b23853.41510625/1127249-Sitecore_Cloud_Portal_SSO-html5/out/js/layout-custom-script.js'
-[26-Jun-2023 10:20:30 Europe/Dublin] Post build HTML5
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: index-en.html -> toc-en.html [64995854965f3.toc.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: access-the-portal-for-the-first-time.html -> access-the-portal-for-the-first-time.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: log-in-to-the-sitecore-cloud-portal.html -> log-in-to-the-sitecore-cloud-portal.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: access-sitecore-apps.html -> access-sitecore-apps.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: access-another-organization.html -> access-another-organization.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: reset-your-sitecore-cloud-portal-password.html -> reset-your-sitecore-cloud-portal-password.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: change-your-sitecore-password.html -> change-your-sitecore-password.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: introduction-to-the-sitecore-cloud-portal.html -> introduction-to-the-sitecore-cloud-portal.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: managing-access-in-the-portal.html -> managing-access-in-the-portal.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: edit-or-delete-an-sso-connection.html -> edit-or-delete-an-sso-connection.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: configure-openid-connect--oidc-.html -> configure-openid-connect--oidc-.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: technical-details.html -> technical-details.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: single-sign-on--sso-.html -> single-sign-on--sso-.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: invite-team-members-to-your-sitecore-cloud-portal-organization.html -> invite-team-members-to-your-sitecore-cloud-portal-organization.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: manage-the-access-of-a-team-member.html -> manage-the-access-of-a-team-member.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: export-team-member-data.html -> export-team-member-data.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: manage-multi-factor-authentication.html -> manage-multi-factor-authentication.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: password-policy.html -> password-policy.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: create-a-support-case.html -> create-a-support-case.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: portal-administration.html -> portal-administration.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:30 Europe/Dublin] [Info] Transformation: index-en.html -> index-en.html [64995854965f3.page.xsl]
-[26/Jun/2023 10:20:31 Europe/Dublin] [Info] Generating index page.
-[26/Jun/2023 10:20:31 Europe/Dublin] [Info] Transformation: index.manifest -> index.html [64995854965f3.index.xsl]
-[26/Jun/2023 10:20:31 Europe/Dublin] [Info] # Took 20.861880 seconds to render.
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] Building multilang: no
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] Building preview: no
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] ############################################################
+[04/Jul/2023 09:24:50 Europe/Dublin] [Info] Using build directory: $local_tmp/production-64a3d75117a802.12938852/1127249-Sitecore_Cloud_Portal_SSO-html5
+[04/Jul/2023 09:24:51 Europe/Dublin] [Info] -- Generating source files
+[04/Jul/2023 09:24:51 Europe/Dublin] [Info] -- Propagating taxonomies: true
+[04/Jul/2023 09:24:52 Europe/Dublin] [Info] -- Source files have been generated
+[04/Jul/2023 09:24:52 Europe/Dublin] [Info] -- Publication has no unresolved dependencies.
+[04/Jul/2023 09:24:52 Europe/Dublin] [Info] -- Generating source files complete.
+[04/Jul/2023 09:24:53 Europe/Dublin] [Info] Localizing: publication-1127249.xml
+[04/Jul/2023 09:24:53 Europe/Dublin] [Info] Language: en
+[04/Jul/2023 09:24:54 Europe/Dublin] [Warning] Resolving some links failed
+[04/Jul/2023 09:24:54 Europe/Dublin] [Info] [/*/*[3]/*[4]/*[10]/*[4]/*[4]/*/*[2]/*[2]/*[2]/*[2]/*[4]/*/*] An outgoing link in <a href="/document/edit/1092297">organization access role table</a> could not be resolved. The link points to <a href="/document/edit/805390">XM Cloud Deploy app</a> which is not part of this publication.
+[04/Jul/2023 09:24:54 Europe/Dublin] [Info] [/*/*[3]/*[4]/*[10]/*[5]/*[9]/*] An outgoing link in <a href="/document/edit/1003118">Managing access in the portal</a> could not be resolved. The link points to <a href="/document/edit/943732">Creating users in XM Cloud</a> which is not part of this publication.
+[04/Jul/2023 09:24:54 Europe/Dublin] [Info] [/*/*[3]/*[6]/*[6]/*[5]/*[2]/*/*[2]/*[2]/*[2]/*[2]/*[4]/*/*] An outgoing link in <a href="/document/edit/1092297">organization access role table</a> could not be resolved. The link points to <a href="/document/edit/805390">XM Cloud Deploy app</a> which is not part of this publication.
+[04/Jul/2023 09:24:54 Europe/Dublin] [Info] [/*/*[3]/*[7]/*[4]/*[3]/*[3]/*[2]/*/*[2]/*[2]/*[2]/*[2]/*[4]/*/*] An outgoing link in <a href="/document/edit/1092297">organization access role table</a> could not be resolved. The link points to <a href="/document/edit/805390">XM Cloud Deploy app</a> which is not part of this publication.
+[04/Jul/2023 09:24:54 Europe/Dublin] [Info] Variable sets found: 0
+[04/Jul/2023 09:24:55 Europe/Dublin] [Info] Inserting image links.
+[04/Jul/2023 09:24:55 Europe/Dublin] [Info] Found 14 image(s).
+[04/Jul/2023 09:24:55 Europe/Dublin] [Info] Found image 'profile.PNG'
+[04/Jul/2023 09:24:55 Europe/Dublin] [Info] Found image 'apps-section-app-pane.PNG'
+[04/Jul/2023 09:24:55 Europe/Dublin] [Info] Found image 'switcher-icon.png'
+[04/Jul/2023 09:24:55 Europe/Dublin] [Info] Found image 'switch-pane.PNG'
+[04/Jul/2023 09:24:55 Europe/Dublin] [Info] Found image 'quick-actions-pane.PNG'
+[04/Jul/2023 09:24:55 Europe/Dublin] [Info] Found image 'account-page.PNG'
+[04/Jul/2023 09:24:55 Europe/Dublin] [Info] Found image 'password-reset-email.PNG'
+[04/Jul/2023 09:24:55 Europe/Dublin] [Info] Found image 'reset-password-page.PNG'
+[04/Jul/2023 09:24:56 Europe/Dublin] [Info] Found image 'sitecore-cloud-portal-login-page.png'
+[04/Jul/2023 09:24:56 Europe/Dublin] [Info] Found image 'pencil-outline.png'
+[04/Jul/2023 09:24:56 Europe/Dublin] [Info] Found image 'trash-can-outline.png'
+[04/Jul/2023 09:24:56 Europe/Dublin] [Info] Found image 'SC_Cloud_-_invite_team_members.png'
+[04/Jul/2023 09:24:56 Europe/Dublin] [Info] Found image 'actions-menu-horizontal-icon.png'
+[04/Jul/2023 09:24:56 Europe/Dublin] [Info] Found image 'app-access.PNG'
+[04/Jul/2023 09:24:57 Europe/Dublin] [Info] Profiling parameters: []
+[04/Jul/2023 09:24:57 Europe/Dublin] [Info] Profiling customisation: $user_dir/xsl/profile.xsl (not found)
+[04/Jul/2023 09:24:57 Europe/Dublin] [Info] Transformation: publication-1127249--en.org.xml -> publication-1127249--en.xml [profile.xsl]
+[04/Jul/2023 09:24:57 Europe/Dublin] [Info] Transformation: publication-1127249--en.xml -> publication-1127249--en.xml [internal-xref.xsl]
+[04/Jul/2023 09:24:57 Europe/Dublin] [Info] Transformation: A-filelist.xml -> B-sorted.xml [IO.document.sortlang.xsl]
+[04/Jul/2023 09:24:57 Europe/Dublin] [Info] Transformation: B-sorted.xml -> C-concatenated.xml [IO.document.concat.xsl]
+[04/Jul/2023 09:24:57 Europe/Dublin] [Info] Transformation: B-sorted.xml -> index-en.xml [IO.document.head.xsl]
+[04/Jul/2023 09:24:57 Europe/Dublin] [Info] Created copy: $user_dir/xsl/custom/layout-769278.xsl -> $user_dir/xsl/custom/64a3d759b4b5f.xsl
+[04/Jul/2023 09:24:57 Europe/Dublin] [Info] Created symlink: $user_dir/xsl/html5/xmc_html5-2.page.xsl -> $user_dir/xsl/custom/64a3d759b4b5f.page.xsl
+[04/Jul/2023 09:24:57 Europe/Dublin] [Info] Created symlink: $user_dir/xsl/html5/xmc_html5-2.index.xsl -> $user_dir/xsl/custom/64a3d759b4b5f.index.xsl
+[04/Jul/2023 09:24:57 Europe/Dublin] [Info] Created symlink: $user_dir/xsl/default/html5/html5-2.page.xsl -> $user_dir/xsl/custom/64a3d759b4b5f.page.xsl
+[04/Jul/2023 09:24:57 Europe/Dublin] [Info] Created symlink: $user_dir/xsl/default/html5/html5-2.index.xsl -> $user_dir/xsl/custom/64a3d759b4b5f.index.xsl
+[04/Jul/2023 09:24:57 Europe/Dublin] [Info] Created symlink: $user_dir/xsl/default/html5/html5.toc.xsl -> $user_dir/xsl/custom/64a3d759b4b5f.toc.xsl
+[04/Jul/2023 09:24:57 Europe/Dublin] [Info] Created symlink: $user_dir/xsl/default/html5/html5.page.xsl -> $user_dir/xsl/custom/64a3d759b4b5f.page.xsl
+[04/Jul/2023 09:24:57 Europe/Dublin] [Info] Created symlink: $user_dir/xsl/default/html5/html5.index.xsl -> $user_dir/xsl/custom/64a3d759b4b5f.index.xsl
+[04/Jul/2023 09:24:58 Europe/Dublin] [Info] Image copied: en/image/uuid-b9b63de7-4dd2-ed95-8901-29afe1d1bf30.PNG
+[04/Jul/2023 09:24:58 Europe/Dublin] [Info] Image copied: en/image/uuid-075dff54-3fd5-aa47-9c76-4e099d0dbea4.PNG
+[04/Jul/2023 09:24:58 Europe/Dublin] [Info] Image copied: en/image/uuid-83c5aa59-2458-838f-fa34-4543550b68f1.png
+[04/Jul/2023 09:24:58 Europe/Dublin] [Info] Image copied: en/image/uuid-459bee43-9d9f-528f-82c0-fcda0f0124ba.png
+[04/Jul/2023 09:24:58 Europe/Dublin] [Info] Image copied: en/image/uuid-a3cf5469-1980-2390-324a-1f2b554703c6.PNG
+[04/Jul/2023 09:24:58 Europe/Dublin] [Info] Image copied: en/image/uuid-7b7ddc83-395c-a821-00cb-fd9b79274b8d.png
+[04/Jul/2023 09:24:58 Europe/Dublin] [Info] Image copied: en/image/uuid-94405ddf-ef64-dedb-5f81-98bfbc787c45.PNG
+[04/Jul/2023 09:24:58 Europe/Dublin] [Info] Image copied: en/image/uuid-5698e100-8269-61db-8d02-e5cc961f3cf3.PNG
+[04/Jul/2023 09:24:58 Europe/Dublin] [Info] Image copied: en/image/uuid-05eac87b-b03c-c704-9003-a5dacd35bb53.png
+[04/Jul/2023 09:24:58 Europe/Dublin] [Info] Image copied: en/image/uuid-ee92a345-87ca-d42e-9e81-66bc07dd28a7.png
+[04/Jul/2023 09:24:58 Europe/Dublin] [Info] Image copied: en/image/uuid-ba18d6ad-d61f-ffff-45b2-8624c3b71789.png
+[04/Jul/2023 09:24:58 Europe/Dublin] [Info] Image copied: en/image/uuid-23a9aac3-e9dd-af44-e6ae-dbf0105872b4.png
+[04/Jul/2023 09:24:58 Europe/Dublin] [Info] Image copied: en/image/uuid-19b5257d-2fb7-59f5-30ec-feab9a68ca43.png
+[04/Jul/2023 09:24:58 Europe/Dublin] [Info] Image copied: en/image/uuid-9d46380d-f2f2-e2b5-36fd-d86f3d4194ce.png
+[04/Jul/2023 09:25:00 Europe/Dublin] [Warning] XSLTProcessor::transformToDoc(): Not allowed to call handler 'file_exists()' in $apppath/core/paligo/class.xsltprocessor.php on line 77
+[04-Jul-2023 09:25:03 Europe/Dublin] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, js/jquery-3/*, fonts/*
+[04-Jul-2023 09:25:03 Europe/Dublin] Parsing manifest file: css/*, css/image/*, css/image/callouts/*, js/*, fonts/*
+[04-Jul-2023 09:25:03 Europe/Dublin] Copy file '$user_dir/xsl/custom/assets/layout-769278/5c98d7ebe55fd.png' to '$local_tmp/production-64a3d75117a802.12938852/1127249-Sitecore_Cloud_Portal_SSO-html5/out/css/image/corporate-logo.png'
+[04-Jul-2023 09:25:03 Europe/Dublin] Copy file '$apppath/lib/docbook/xsl/html5/css/image/corporate-logo-white.svg' to '$local_tmp/production-64a3d75117a802.12938852/1127249-Sitecore_Cloud_Portal_SSO-html5/out/css/image/portal-logo.svg'
+[04-Jul-2023 09:25:03 Europe/Dublin] Copy file '$user_dir/xsl/custom/assets/layout-769278/5ea6f83db4837.js' to '$local_tmp/production-64a3d75117a802.12938852/1127249-Sitecore_Cloud_Portal_SSO-html5/out/js/layout-custom-script.js'
+[04-Jul-2023 09:25:04 Europe/Dublin] Post build HTML5
+[04/Jul/2023 09:25:04 Europe/Dublin] [Info] Transformation: index-en.html -> toc-en.html [64a3d759b4b5f.toc.xsl]
+[04/Jul/2023 09:25:04 Europe/Dublin] [Info] Transformation: access-the-portal-for-the-first-time.html -> access-the-portal-for-the-first-time.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:04 Europe/Dublin] [Info] Transformation: log-in-to-the-sitecore-cloud-portal.html -> log-in-to-the-sitecore-cloud-portal.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:04 Europe/Dublin] [Info] Transformation: access-sitecore-apps.html -> access-sitecore-apps.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:04 Europe/Dublin] [Info] Transformation: access-another-organization.html -> access-another-organization.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:04 Europe/Dublin] [Info] Transformation: reset-your-sitecore-cloud-portal-password.html -> reset-your-sitecore-cloud-portal-password.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:04 Europe/Dublin] [Info] Transformation: change-your-sitecore-password.html -> change-your-sitecore-password.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:04 Europe/Dublin] [Info] Transformation: introduction-to-the-sitecore-cloud-portal.html -> introduction-to-the-sitecore-cloud-portal.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:04 Europe/Dublin] [Info] Transformation: managing-access-in-the-portal.html -> managing-access-in-the-portal.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:04 Europe/Dublin] [Info] Transformation: edit-or-delete-an-sso-connection.html -> edit-or-delete-an-sso-connection.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:04 Europe/Dublin] [Info] Transformation: configure-openid-connect--oidc-.html -> configure-openid-connect--oidc-.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:04 Europe/Dublin] [Info] Transformation: technical-details.html -> technical-details.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:05 Europe/Dublin] [Info] Transformation: single-sign-on--sso-.html -> single-sign-on--sso-.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:05 Europe/Dublin] [Info] Transformation: invite-team-members-to-your-sitecore-cloud-portal-organization.html -> invite-team-members-to-your-sitecore-cloud-portal-organization.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:05 Europe/Dublin] [Info] Transformation: manage-the-access-of-a-team-member.html -> manage-the-access-of-a-team-member.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:05 Europe/Dublin] [Info] Transformation: export-team-member-data.html -> export-team-member-data.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:05 Europe/Dublin] [Info] Transformation: manage-multi-factor-authentication.html -> manage-multi-factor-authentication.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:05 Europe/Dublin] [Info] Transformation: password-policy.html -> password-policy.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:05 Europe/Dublin] [Info] Transformation: create-a-support-case.html -> create-a-support-case.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:05 Europe/Dublin] [Info] Transformation: portal-administration.html -> portal-administration.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:05 Europe/Dublin] [Info] Transformation: index-en.html -> index-en.html [64a3d759b4b5f.page.xsl]
+[04/Jul/2023 09:25:05 Europe/Dublin] [Info] Generating index page.
+[04/Jul/2023 09:25:05 Europe/Dublin] [Info] Transformation: index.manifest -> index.html [64a3d759b4b5f.index.xsl]
+[04/Jul/2023 09:25:06 Europe/Dublin] [Info] # Took 15.701056 seconds to render.
