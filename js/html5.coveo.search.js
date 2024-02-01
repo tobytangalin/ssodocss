@@ -1,5 +1,8 @@
 $(document).on('ready', function () {
     init();
+    if (window.location.hash) {
+        showSearch($resultcontainer);
+    }
 });
 
 $(document).ajaxComplete(function() {
@@ -23,15 +26,15 @@ function init(){
         });
 
         $('atomic-search-box').on('keyup focus', function (e) {
+            if (! $('input',$('atomic-search-box')[0].shadowRoot).val()) {
+                return false;
+            }
             var _this = $(this);
             clearTimeout(timeout);
             timeout = setTimeout(function () {
-                if(enterKey === 'select'){
                     //If the user is only using arrow keys to browse results, return false:
-                    var isSearch = selectResults(e);
-                    if (isSearch === false) {
+                if (enterKey === 'select' && selectResults(e) === false) {
                         return false;
-                    }
                 }
                 search(e, _this);
             },
@@ -57,6 +60,7 @@ function addSearch() {
 
     $('.portal-content, .site-content').click(function (e) {
         var atomicComponents = ["atomic-breadbox",
+        "atomic-search-box",
         "atomic-facet",
         "atomic-facet-manager",
         "atomic-layout-section",
