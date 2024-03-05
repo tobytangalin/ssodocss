@@ -220,6 +220,8 @@ function buildSectionToc() {
             $(".section-toc").remove();
         } else {
             var sectionTocLinks = links.clone();
+            // PAL2-9835 DJ: Select first valid decendant link for topicheads.
+            sectionTocLinks = handleTopicheadInSectionToc(sectionTocLinks);
             //Only show first level children, section TOCS could get very long otherwise
             sectionTocLinks.find('ul').remove();
             sectionTocLinks.find('.glyphicon').remove();
@@ -228,6 +230,15 @@ function buildSectionToc() {
             $(".section-toc ul").css('display', 'block');
         }
     }
+}
+
+function handleTopicheadInSectionToc(sectionTocLinks) {
+    sectionTocLinks.children('li').each(function () {
+        if($(this).children('a').hasClass('topichead')) {
+            $(this).children('a').first().attr('href', $(this).find('a:not(.topichead').attr('href'));
+        }
+    });
+    return sectionTocLinks;
 }
 
 function chunkedPrevNext() {
